@@ -2,6 +2,10 @@
     transition: 0.5s ease;
 }
 
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
 #body {
     background-image: url(../img/concert.jpg);
     background-size: cover;
@@ -26,10 +30,12 @@
 
 .key p {
     font-size: 15px;
+    color: darkmagenta;
 }
 
 .key:hover {
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .key:active {
