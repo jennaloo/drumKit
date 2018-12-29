@@ -1,0 +1,8 @@
+* {
+    transition: 0.5s ease;
+}
+
+#body {
+    background-color: black;
+    height: 100vh;
+}
