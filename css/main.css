@@ -21,6 +21,7 @@
     margin: 10px;
     font-size: 30px;
     text-align: center;
+    box-shadow: 10px 10px 10px black;
 }
 
 .key p {
@@ -33,5 +34,5 @@
 
 .key:active {
     transform: scale(0.8);
-    color: white;
+    box-shadow: 5px 5px 5px black;
 }
