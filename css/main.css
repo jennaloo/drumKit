@@ -17,21 +17,22 @@ html {
     padding: 10px;
     height: 100px;
     width: 100px;
-    background-color: transparent;
+    background-color: rgba(300, 300, 300, 0.7);
     border: 2px solid black;
     margin: 10px;
     font-size: 30px;
     text-align: center;
     box-shadow: 10px 10px 10px black;
-    color: darkmagenta;
+    color: navy;
     transition: all 0.5s;
 }
 
 .key p {
     font-size: 15px;
-    color: darkmagenta;
+    color: navy;
 }
 
 .playing {
-    border: 3px solid magenta;
+    border: 1px solid cyan;
+    box-shadow: 1px 1px 50px 5px cyan;
 }
