@@ -1,7 +1,3 @@
-* {
-    transition: 0.5s ease;
-}
-
 html {
     -webkit-tap-highlight-color: transparent;
 }
@@ -21,11 +17,14 @@ html {
     padding: 10px;
     height: 100px;
     width: 100px;
-    background-color: lightblue;
+    background-color: transparent;
+    border: 2px solid black;
     margin: 10px;
     font-size: 30px;
     text-align: center;
     box-shadow: 10px 10px 10px black;
+    color: darkmagenta;
+    transition: all 0.5s;
 }
 
 .key p {
@@ -33,12 +32,6 @@ html {
     color: darkmagenta;
 }
 
-.key:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.key:active {
-    transform: scale(0.8);
-    box-shadow: 5px 5px 5px black;
+.playing {
+    border: 3px solid magenta;
 }
