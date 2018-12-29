@@ -3,6 +3,35 @@
 }
 
 #body {
-    background-color: black;
+    background-image: url(../img/concert.jpg);
+    background-size: cover;
     height: 100vh;
+}
+
+.row {
+    height: 100vh;
+}
+
+.key {
+    display: inline-block;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.key p {
+    font-size: 15px;
+}
+
+.key:hover {
+    cursor: pointer;
+}
+
+.key:active {
+    transform: scale(0.8);
+    color: white;
 }
